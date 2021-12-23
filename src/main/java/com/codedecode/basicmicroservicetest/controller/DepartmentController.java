@@ -65,6 +65,7 @@ public class DepartmentController {
 	public String deleteDepartmentById(@PathVariable("id") Long departmentId) {
 		Log.info("Entered Into deleteDepartmentById method");
 		Log.info("Entered Into deleteDepartmentById method Newly");
+		Log.info("Entered Into deleteDepartmentById method Newly second time");
 		Log.debug("departmentId::::"+departmentId);
 		
 		 departmentService.deleteDepartmentById(departmentId);
