@@ -64,6 +64,7 @@ public class DepartmentController {
 	@DeleteMapping("/department/{id}")
 	public String deleteDepartmentById(@PathVariable("id") Long departmentId) {
 		Log.info("Entered Into deleteDepartmentById method");
+		Log.info("Entered Into deleteDepartmentById method Newly");
 		Log.debug("departmentId::::"+departmentId);
 		
 		 departmentService.deleteDepartmentById(departmentId);
